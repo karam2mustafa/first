@@ -1,0 +1,26 @@
+{
+    "name": "karam/first",
+    "description": "test",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "karam mustafa",
+            "email": "karam2mustafa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-4" : {
+            "karam\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "karam\\Commands\\ArtisanKaramServiceProvider"
+            ]
+        }
+    }
+}
